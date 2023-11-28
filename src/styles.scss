@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(180deg, rgba(0,0,0,1) 14%, rgba(0,0,0,0.6722338593640581) 54%, rgba(255,255,255,1) 100%);
+}
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gold;
+  gap: 15px;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.input{
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: 2px solid gold;
+
+  &::placeholder{
+    color: black;
+  }
+}
+
+.username-helper{
+  margin-block-start: 0;
+}
+
+.invalid-input{
+  color: red;
+}
+.button{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+}
